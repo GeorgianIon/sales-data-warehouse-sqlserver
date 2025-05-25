@@ -36,7 +36,7 @@ Originally developed as part of a university course, the project has been restru
 │   └── olap_queries.sql          # OLAP queries for business insights
 │
 └── schema/
-    └── star_schema_diagram.png   # (Optional) Visual ERD of the model
+    └── star_schema_diagram.png   # Visual ERD of the model
 
 ```
 
