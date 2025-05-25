@@ -1,4 +1,4 @@
-# sales-data-warehouse-sqlserver
+
 # Sales Data Warehouse – AdventureWorks (Microsoft SQL Server)
 
 This project implements a dimensional Data Warehouse based on the `AdventureWorks2022` sample database using **Microsoft SQL Server**. It follows a classical **star schema** and includes ETL processes and OLAP queries for multidimensional analysis.
@@ -26,16 +26,23 @@ Originally developed as part of a university course, the project has been restru
 ---
 
 ## 📁 Repository Structure
-sql/
-│ ├── create_tables.sql # Definitions of dimension and fact tables
-│ ├── add_foreign_keys.sql # Foreign key constraints added after table creation
-│ ├── populate_tables.sql # ETL scripts to populate the Data Warehouse
-│ └── olap_queries.sql # OLAP queries for business insights
-│
-├── schema/
-  └── star_schema_diagram.png 
 
-⚙️ Setup Instructions
+```
+.
+├── sql/
+│   ├── create_tables.sql         # Definitions of dimension and fact tables
+│   ├── add_foreign_keys.sql      # Foreign key constraints added after table creation
+│   ├── populate_tables.sql       # ETL scripts to populate the Data Warehouse
+│   └── olap_queries.sql          # OLAP queries for business insights
+│
+└── schema/
+    └── star_schema_diagram.png   # (Optional) Visual ERD of the model
+
+```
+
+---
+
+## ⚙️ Setup Instructions
 
 1. Restore the `AdventureWorks2022` database in SQL Server.
 2. Run `create_tables.sql` to create the star schema structure.
@@ -62,4 +69,3 @@ sql/
 - This project demonstrates strong understanding of dimensional modeling and data warehousing concepts.
 
 ---
-
